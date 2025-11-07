@@ -12,4 +12,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=DashaChizh_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=DashaChizh_python-project-49)
 
 ### Demonstration project:
+♦ Brain-even
 https://asciinema.org/a/FykFklHkGYSVcRVo0XLrsW1dC
+♦ Brain-calc
+https://asciinema.org/a/CYUGh5sLymMg4uvewIREj4qmD
