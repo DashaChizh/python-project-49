@@ -1,10 +1,17 @@
 import random
-from brain_games.consts import MIN_NUM, MAX_NUM, MATH_SIGNS
+from brain_games.consts import MIN_NUM, MAX_NUM, MATH_SIGNS, MIN_LENGTH, MAX_LENGTH
+
 
 # Получение случайного числа
 def get_random_num():
     num = random.randint(MIN_NUM, MAX_NUM)
     return num
+
+# Получение случайной длины прогрессии и индекса для спрятанного элемента
+def get_random_length_and_index():
+    length = random.randint(MIN_LENGTH, MAX_LENGTH)
+    index = random.randint(0, length - 1)
+    return length, index
 
 
 # Получение случайного математического оператора
