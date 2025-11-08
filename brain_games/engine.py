@@ -25,8 +25,9 @@ def run_game(get_question_and_answer, game_instruction):
             print('Correct!')
             count_tries += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
-                f"Let's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(. " 
+                  f"Correct answer was '{correct_answer}'."
+                  f"Let's try again, {name}!")
             count_tries = 0
 
     print(f'Congratulations, {name}!')

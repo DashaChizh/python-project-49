@@ -3,8 +3,6 @@ from brain_games.utils import get_random_num, get_math_sign
 from brain_games.consts import CALC_INSTRUCTION
 
 
-
-
 def get_math_expression_and_answer():
     num_1 = get_random_num()
     num_2 = get_random_num()
