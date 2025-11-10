@@ -12,9 +12,9 @@ def get_progression_and_answer():
 
     for i in range(length):
         value = start + i * step
-            if hidden_index == i:
-                progression_elements.append('..')
-                answer = str(value)
+        if hidden_index == i:
+            progression_elements.append('..')
+            answer = str(value)
         else:
             progression_elements.append(str(value))
         progression = ' '.join(progression_elements)
