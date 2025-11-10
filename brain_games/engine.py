@@ -21,7 +21,7 @@ def run_game(get_question_and_answer, game_instruction):
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 
-        if answer == correct_answer:
+        if answer.lower() == correct_answer:
             print('Correct!')
             count_tries += 1
         else:
