@@ -10,8 +10,8 @@ def get_random_num():
 # Получение случайной длины прогрессии и индекса для спрятанного элемента
 def get_random_length_and_index():
     length = random.randint(MIN_LENGTH, MAX_LENGTH)
-    index = random.randint(0, length - 1)
-    return length, index
+    hidden_index = random.randint(0, length - 1)
+    return length, hidden_index
 
 
 # Получение случайного математического оператора
