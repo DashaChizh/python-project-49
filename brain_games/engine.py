@@ -12,9 +12,9 @@ def run_game(get_question_and_answer, game_instruction):
     # И связан с функцией в скрипте. То есть идет переприсвоение аргументов. 
     print(f'{game_instruction}')
 
-    count_tries = 0
+    # count_tries = 0
 
-    while count_tries < ROUNDS_NUM:
+    for _ in range(ROUNDS_NUM):
         # Получаем запрашиваемое число и правильный ответ
         # question - это цифра или выражение для вопроса игроку
         question, correct_answer = get_question_and_answer()
@@ -23,12 +23,13 @@ def run_game(get_question_and_answer, game_instruction):
 
         if answer.lower() == correct_answer:
             print('Correct!')
-            count_tries += 1
+            # count_tries += 1
         else:
             print(f"'{answer}' is wrong answer ;(. " 
                   f"Correct answer was '{correct_answer}'."
                   f"Let's try again, {name}!")
-            count_tries = 0
+            return
+            #count_tries = 0
 
     print(f'Congratulations, {name}!')
 
