@@ -8,12 +8,8 @@ def get_nums_and_answer():
     num_2 = get_random_num()
     a, b = num_1, num_2
 
-    if a % b == 0:
-        gcd_value = b
-
     while b != 0:
-        a = b 
-        b = a % b 
+        a, b = b, a % b 
     gcd_value = a
 
     return f'{num_1} {num_2}', str(gcd_value)
