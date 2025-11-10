@@ -4,19 +4,20 @@ from brain_games.consts import PROGRESSION_INSTRUCTION
 
 
 def get_progression_and_answer():
-    length, index = get_random_length_and_index()
+    length, hidden_index = get_random_length_and_index()
     step = get_random_num()
     start = get_random_num()
     
-    progression = ''
+    progression_elements = []
 
     for i in range(length):
-        if index == i:
-            answer = str(start + i * step)
-            progres_element = '..'
+        value = start + i * step
+            if hidden_index == i:
+                progression_elements.append('..')
+                answer = str(value)
         else:
-            progres_element = str(start + i * step)
-        progression = progression + ' ' + progres_element
+            progression_elements.append(str(value))
+        progression = ' '.join(progression_elements)
 
     return progression, answer
 
