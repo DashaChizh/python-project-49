@@ -1,6 +1,6 @@
-from brain_games.engine import run_game
-from brain_games.utils import get_random_num, get_math_sign
 from brain_games.consts import CALC_INSTRUCTION
+from brain_games.engine import run_game
+from brain_games.utils import get_math_sign, get_random_num
 
 
 def get_math_expression_and_answer():

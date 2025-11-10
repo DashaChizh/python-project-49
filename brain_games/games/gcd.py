@@ -1,6 +1,6 @@
+from brain_games.consts import GCD_INSTRUCTION
 from brain_games.engine import run_game
 from brain_games.utils import get_random_num
-from brain_games.consts import GCD_INSTRUCTION
 
 
 def get_nums_and_answer():
