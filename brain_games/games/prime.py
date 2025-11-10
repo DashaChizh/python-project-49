@@ -4,8 +4,10 @@ from brain_games.consts import PRIME_INSTRUCTION
 
 
 def is_prime(num):
+    if num <= 1:
+        return False
     deviders_num = 0
-    square_root = int(num ** (1/2))
+    square_root = int(num ** 0.5)
     for i in range(2, square_root + 1):
         if num % i == 0:
             deviders_num += 1
