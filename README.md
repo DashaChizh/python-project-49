@@ -49,7 +49,7 @@ The user is shown a random number. The user must answer "yes" if the number is e
 brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/Oi6gSIrAcABVRUghLZtpY1VmQ.svg)](https://asciinema.org/a/Oi6gSIrAcABVRUghLZtpY1VmQ)
+[![asciicast](https://asciinema.org/a/FDN1bJ32ZCNMxXS7ZFEQnYiIF.svg)](https://asciinema.org/a/FDN1bJ32ZCNMxXS7ZFEQnYiIF)
 
 ### ♦ game "Brain-calc":
 Game Description:
@@ -59,8 +59,7 @@ The user is shown a random math expression, such as 35 + 16, and must calculate 
 brain-calc
 ```
 
-
-[![asciicast](https://asciinema.org/a/94purvTfqqQk3Cv9zMAWZy9yD.svg)](https://asciinema.org/a/94purvTfqqQk3Cv9zMAWZy9yD)
+[![asciicast](https://asciinema.org/a/ips2PnUXb5AqsuhqECKalsQfS.svg)](https://asciinema.org/a/ips2PnUXb5AqsuhqECKalsQfS)
 
 
 ### ♦ game "Brain-gcd":
@@ -72,7 +71,7 @@ brain-gcd
 ```
 
 
-[![asciicast](https://asciinema.org/a/ZZEQoTXRmlVIODFE9tprPLuU1.svg)](https://asciinema.org/a/ZZEQoTXRmlVIODFE9tprPLuU1)
+[![asciicast](https://asciinema.org/a/OGN6QEUs1jqkL3EdnMPXgvRHw.svg)](https://asciinema.org/a/OGN6QEUs1jqkL3EdnMPXgvRHw)
 
 ### ♦ game "Brain-progression":
 Game Description:
@@ -83,7 +82,7 @@ brain-progression
 ```
 
 
-[![asciicast](https://asciinema.org/a/WMQpGOI7w7CMhzKdqrnBkYtkL.svg)](https://asciinema.org/a/WMQpGOI7w7CMhzKdqrnBkYtkL)
+[![asciicast](https://asciinema.org/a/P0NEFrTga5kqT5vLhIdoz35pP.svg)](https://asciinema.org/a/P0NEFrTga5kqT5vLhIdoz35pP)
 
 ### ♦ game "Brain-prime":
 Game Description:
@@ -93,5 +92,5 @@ The user is shown a random number. They must answer "yes" if the number is prime
 brain-prime
 ```
 
-[![asciicast](https://asciinema.org/a/aI3FBJUTVccuQ4OoY6MBzhGCk.svg)](https://asciinema.org/a/aI3FBJUTVccuQ4OoY6MBzhGCk)
+[![asciicast](https://asciinema.org/a/pjunogfob15srBCZbSEpYNJmA.svg)](https://asciinema.org/a/pjunogfob15srBCZbSEpYNJmA)
 
