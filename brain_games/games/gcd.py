@@ -1,11 +1,16 @@
-from brain_games.consts import GCD_INSTRUCTION
+import random
+
+from brain_games.consts import (
+    GCD_INSTRUCTION,
+    MAX_NUM,
+    MIN_NUM
+)
 from brain_games.engine import run_game
-from brain_games.utils import get_random_num
 
 
 def get_nums_and_answer():
-    num_1 = get_random_num()
-    num_2 = get_random_num()
+    num_1 = random.randint(MIN_NUM, MAX_NUM)
+    num_2 = random.randint(MIN_NUM, MAX_NUM)
     a, b = num_1, num_2
 
     while b != 0:

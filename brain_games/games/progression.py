@@ -1,12 +1,20 @@
-from brain_games.consts import PROGRESSION_INSTRUCTION
+import random
+
+from brain_games.consts import (
+    PROGRESSION_INSTRUCTION,
+    MAX_LENGTH,
+    MAX_NUM,
+    MIN_NUM,
+    MIN_LENGTH
+)
 from brain_games.engine import run_game
-from brain_games.utils import get_random_length_and_index, get_random_num
 
 
 def get_progression_and_answer():
-    length, hidden_index = get_random_length_and_index()
-    step = get_random_num()
-    start = get_random_num()
+    length = random.randint(MIN_LENGTH, MAX_LENGTH)
+    hidden_index = random.randint(0, length - 1)
+    step = random.randint(MIN_NUM, MAX_NUM)
+    start = random.randint(MIN_NUM, MAX_NUM)
     
     progression_elements = []
 
