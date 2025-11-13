@@ -1,11 +1,23 @@
-from brain_games.consts import CALC_INSTRUCTION
+import random
+
+from brain_games.consts import (
+    CALC_INSTRUCTION,
+    MATH_SIGNS,
+    MAX_NUM,
+    MIN_NUM
+)
 from brain_games.engine import run_game
-from brain_games.utils import get_math_sign, get_random_num
+
+
+
+def get_math_sign():
+    math_sign = random.choice(MATH_SIGNS)
+    return math_sign
 
 
 def get_math_expression_and_answer():
-    num_1 = get_random_num()
-    num_2 = get_random_num()
+    num_1 = random.randint(MIN_NUM, MAX_NUM)
+    num_2 = random.randint(MIN_NUM, MAX_NUM)
     math_sign = get_math_sign()
     math_expression = f'{num_1} {math_sign} {num_2}'
 
