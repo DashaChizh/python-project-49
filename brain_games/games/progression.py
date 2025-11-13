@@ -1,11 +1,11 @@
 import random
 
 from brain_games.consts import (
-    PROGRESSION_INSTRUCTION,
     MAX_LENGTH,
     MAX_NUM,
+    MIN_LENGTH,
     MIN_NUM,
-    MIN_LENGTH
+    PROGRESSION_INSTRUCTION,
 )
 from brain_games.engine import run_game
 

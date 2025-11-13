@@ -1,13 +1,7 @@
 import random
 
-from brain_games.consts import (
-    CALC_INSTRUCTION,
-    MATH_SIGNS,
-    MAX_NUM,
-    MIN_NUM
-)
+from brain_games.consts import CALC_INSTRUCTION, MATH_SIGNS, MAX_NUM, MIN_NUM
 from brain_games.engine import run_game
-
 
 
 def get_math_sign():

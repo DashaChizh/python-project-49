@@ -1,10 +1,6 @@
 import random
 
-from brain_games.consts import (
-    GCD_INSTRUCTION,
-    MAX_NUM,
-    MIN_NUM
-)
+from brain_games.consts import GCD_INSTRUCTION, MAX_NUM, MIN_NUM
 from brain_games.engine import run_game
 
 
